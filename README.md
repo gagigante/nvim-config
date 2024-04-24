@@ -1,5 +1,8 @@
 # neovim-config
 
+## Requirements
+- [Nerd font on your terminal](https://www.nerdfonts.com/)
+
 ## Plugins
 
 > Plugins managed using [Packer](https://github.com/wbthomason/packer.nvim)
@@ -10,6 +13,9 @@
 
 ### Syntax
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+
+### UI elements
+- [lualine](https://github.com/nvim-lualine/lualine.nvim)
 
 TODO:
 Visual staged diffs
