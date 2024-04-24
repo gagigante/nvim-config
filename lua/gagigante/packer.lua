@@ -20,10 +20,14 @@ return require('packer').startup(function(use)
         },
     }
 
+    -- git integration
     use {
         'lewis6991/gitsigns.nvim',
         requires = { 'nvim-lua/plenary.nvim' },
     }
+
+    use 'tpope/vim-fugitive'
+
     -- use {
        -- "nvim-neo-tree/neo-tree.nvim",
         --branch = "v3.x",
@@ -47,9 +51,6 @@ return require('packer').startup(function(use)
 	}
 
 	use 'mbbill/undotree'
-
-	use 'tpope/vim-fugitive'
-
 			
 	use {
 		'VonHeikemen/lsp-zero.nvim',
