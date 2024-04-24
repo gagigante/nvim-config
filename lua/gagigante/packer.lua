@@ -28,6 +28,12 @@ return require('packer').startup(function(use)
 
     use 'tpope/vim-fugitive'
 
+    -- syntax
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+
     -- use {
        -- "nvim-neo-tree/neo-tree.nvim",
         --branch = "v3.x",
@@ -41,7 +47,6 @@ return require('packer').startup(function(use)
 
 	use { "catppuccin/nvim", as = "catppuccin" }
 
-	use ('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
 	use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
 	use {
