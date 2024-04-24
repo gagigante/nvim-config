@@ -2,7 +2,7 @@
 
 ## Plugins
 
-> Plugins managed using [Packer](https://github.com/wbthomason/packer.nvim
+> Plugins managed using [Packer](https://github.com/wbthomason/packer.nvim)
 
 ### Git integration
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
