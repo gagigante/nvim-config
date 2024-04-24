@@ -30,21 +30,6 @@ return require('packer').startup(function(use)
         run = ':TSUpdate'
     }
 
-    -- ui elements
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-    }
-
-    use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
-    use {
-        "ThePrimeagen/harpoon",
-        branch = "harpoon2",
-        requires = { {"nvim-lua/plenary.nvim"} }
-    }
-
-    use 'mbbill/undotree'
-
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v3.x',
@@ -59,6 +44,21 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},
         }
     }
+
+    -- ui elements
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
+
+    use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
+    use {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        requires = { {"nvim-lua/plenary.nvim"} }
+    }
+
+    use 'mbbill/undotree'
 
     use 'christoomey/vim-tmux-navigator'
 end)

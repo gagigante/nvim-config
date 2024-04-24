@@ -14,6 +14,9 @@
 ### Syntax
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
+### Color schema
+- [catppuccin](https://github.com/catppuccin/nvim)
+
 ### UI elements
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 
