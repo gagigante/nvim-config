@@ -1,5 +1,5 @@
 require('lualine').setup{
-    options = { 
+    options = {
         theme = 'auto',
     },
     sections = {
@@ -13,7 +13,7 @@ require('lualine').setup{
             'diff',
         },
         lualine_c = {},
-        lualine_x = {'diagnostics'}, -- TODO: setup to work with LSP and linters
+        lualine_x = {'diagnostics'},
         lualine_y = {'encoding'},
         lualine_z = {'filetype', 'location'},
     },

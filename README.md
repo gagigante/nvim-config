@@ -13,6 +13,7 @@
 
 ### Syntax
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 
 ### Color schema
 - [catppuccin](https://github.com/catppuccin/nvim)
