@@ -1,0 +1,6 @@
+require("gagigante.plugins_config.colors")
+require('gagigante.plugins_config.fugitive')
+require('gagigante.plugins_config.gitsigns')
+require('gagigante.plugins_config.lsp')
+require('gagigante.plugins_config.lualine')
+require('gagigante.plugins_config.treesitter')

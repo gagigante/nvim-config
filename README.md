@@ -5,7 +5,7 @@
 
 ## Plugins
 
-> Plugins managed using [Packer](https://github.com/wbthomason/packer.nvim)
+> Plugins managed using [Lazy](https://github.com/folke/lazy.nvim)
 
 ### Git integration
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
