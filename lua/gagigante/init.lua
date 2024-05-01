@@ -1,2 +1,5 @@
-require("gagigante.remap")
-require("gagigante.set")
+require("gagigante.options")
+require("gagigante.keymaps")
+require("gagigante.plugins")
+require("gagigante.plugins_config")
+

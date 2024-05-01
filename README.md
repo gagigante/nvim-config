@@ -2,10 +2,11 @@
 
 ## Requirements
 - [Nerd font on your terminal](https://www.nerdfonts.com/)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 ## Plugins
 
-> Plugins managed using [Packer](https://github.com/wbthomason/packer.nvim)
+> Plugins managed using [Lazy](https://github.com/folke/lazy.nvim)
 
 ### Git integration
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
@@ -15,7 +16,10 @@
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 
-### Color schema
+### Fuzzy finder
+- [telescope](https://github.com/nvim-telescope/telescope.nvim)
+
+### Color scheme
 - [catppuccin](https://github.com/catppuccin/nvim)
 
 ### UI elements
