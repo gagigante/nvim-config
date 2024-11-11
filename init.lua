@@ -1,1 +1,1 @@
-require("gagigante")
+require("config.lazy")
